@@ -343,7 +343,7 @@ public class NtfsExample {
 * **GNU Make** (optional, for build automation)
 * **JNI headers** (usually included with JDK)
 
-## 🔧 Requirements
+## Requirements
 
 Before building, ensure you have the following dependencies installed:
 
