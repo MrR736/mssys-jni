@@ -357,7 +357,7 @@ sudo apt install cmake make gcc g++ xz-utils
 ### Building from Source
 
 ```bash
-git clone https://github.com/MrR736/MsSys.git
+git clone https://github.com/MrR736/mssys-jni.git
 cd MsSys
 
 cmake .
