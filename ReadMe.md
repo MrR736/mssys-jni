@@ -11,6 +11,7 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [Usage Examples](#usage-examples)
+* [Requirements](#requirements)
 * [API](#api)
 * [License](#license)
 
@@ -342,10 +343,23 @@ public class NtfsExample {
 * **GNU Make** (optional, for build automation)
 * **JNI headers** (usually included with JDK)
 
+## 🔧 Requirements
+
+Before building, ensure you have the following dependencies installed:
+
+```bash
+sudo apt update
+sudo apt install cmake make gcc g++ xz-utils
+```
+
 ### Build
 
-1. Clone the repository:
+#### Building from Source
 
 ```bash
 git clone https://github.com/MrR736/MsSys.git
 cd MsSys
+
+cmake .
+make
+```
