@@ -352,9 +352,9 @@ sudo apt update
 sudo apt install cmake make gcc g++ xz-utils
 ```
 
-### Build
+## Build
 
-#### Building from Source
+### Building from Source
 
 ```bash
 git clone https://github.com/MrR736/MsSys.git
