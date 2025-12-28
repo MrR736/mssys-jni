@@ -61,8 +61,6 @@ public class MsSysExample {
         int minor = ms.get_version_minor();
         int patch = ms.get_version_patch();
         System.out.println("MsSys JNI Version: " + major + "." + minor + "." + patch);
-
-        ms.fclose(ms);
     }
 }
 ```
